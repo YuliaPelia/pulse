@@ -1,0 +1,127 @@
+@media (max-width: 1200px) {
+    .container {
+      max-width: 800px;
+    }
+    .catalog .catalog_content .catalog-item {
+      width: 250px;
+    }
+  }
+  
+  
+  @media (max-width: 991px) {
+    .container {
+      max-width: 770px;
+    }
+    .header__phone {
+      font-size: 15px;
+    }
+  
+    .consultation .title {
+      font-size: 30px;
+      line-height: 46px;
+     
+    }
+    .consultation .consultation_descr {
+      line-height: 25px;
+      
+    }
+    .carousel .carousel_inner {
+      width: 700px;
+    }
+    .benefits .ben_block .icon_ben .text_b {
+      width: 240px;
+    }
+   
+  }
+  @media (max-width: 767px) {
+    .container {
+      max-width: 585px;
+    }
+    .header__logo img {
+      width: 90%;
+    }
+    .header__official span {
+      font-size: 15px;
+    }
+    .promo__header {
+      text-align: center;
+      font-size: 38px;
+      line-height: 30px;
+  
+    }
+    .promo__subheader {
+      text-align: center;
+      line-height: 15px;
+      
+    }
+    .promo__wrapper {
+      align-items: center;
+    }
+    .benefits .ben_block {
+      flex-direction: column;
+    }
+    .benefits .ben_block .icon_ben .text_b {
+      display: block;
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+    .catalog .catalog_content .catalog-item {
+      width: 280px;
+    }
+    .slick-dots {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+    }
+    
+  }
+  @media (max-width: 575px) {
+    .container {
+      max-width: 400px;
+    }
+    .header__contacts {
+      display: none;
+    }
+    .header__logo img {
+      width: 85%;
+    }
+    .promo__header {
+      font-size: 33px;
+  
+    }
+    .promo__subheader {
+      font-size: 17px;
+      line-height: 4px;
+    }
+    .promo__icons {
+      width: 400px;
+    }
+    .header__official span {
+      font-size: 13px;
+      
+    }
+    .consultation .title {
+      font-size: 16px;
+      line-height: 28px;
+    }
+    .consultation .consultation_descr {
+      font-size: 15px;
+      line-height: 20px;
+    }
+    .catalog .catalog_tabs .catalog_tab {
+      font-size: 14px;
+    }
+    .catalog .catalog_content .catalog-item {
+      width: 195px;
+    }
+    .catalog .catalog_content .catalog-item hr {
+      margin-top: -80px;
+    }
+    
+    .slick-dots {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+    }
+    
+  }
